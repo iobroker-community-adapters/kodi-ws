@@ -1,6 +1,6 @@
 {
   "name": "kodi-ws",
-  "version": "2.4.3",
+  "version": "2.4.0",
   "main": "lib/kodi-ws.js",
   "author": "Florian Albertz",
   "contributors": [
@@ -22,13 +22,17 @@
     "test": "make lint"
   },
   "dependencies": {
-    "has-value": "^0.2.0",
+    "has-value": "^2.0.2",
     "jrpc-schema": "^2.1.0",
-    "set-value": "^0.2.0",
-    "ws": "^1.1.1"
+    "set-value": "^4.0.0",
+    "ws": "^7.5.3"
   },
   "devDependencies": {
-    "eslint": "^1.9.0",
-    "babel-eslint": "^5.0.0-beta8"
-  }
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0"
+  },
+  "bugs": {
+    "url": "https://github.com/PaulAvery/kodi-ws/issues"
+  },
+  "homepage": "https://github.com/PaulAvery/kodi-ws#readme"
 }
